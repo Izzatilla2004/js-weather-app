@@ -9,6 +9,7 @@ body {
     background-image: url(bg-2.jpg);
     background-size: cover;
     background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .app-wrap {
@@ -100,5 +101,8 @@ main {
     }
     main {
         margin-top: 50px;
+    }
+    header {
+    align-items: flex-start;
     }
 }
